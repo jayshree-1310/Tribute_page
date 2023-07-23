@@ -1,11 +1,12 @@
 :root {
   --white: rgba(236, 236, 236, 0.877);
-  --background-color: #000000;
+  --background-color: #202020;
 }
 
 * {
   margin: 0;
   padding: 0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body {
@@ -20,9 +21,8 @@ body {
 }
 /** Heading **/
 .header {
-  background-color: #837960;
-  background-image: linear-gradient(to bottom, transparent, #000000),
-    url("https://tribute-page-freecodecamp.vercel.app/images/header-bg.jpeg");
+  background-image: linear-gradient(to bottom, transparent, #202020),
+    url("https://www.lookfar.com/wp-content/uploads/2017/10/ada-image-bates-blog.jpg");
   background-position: center center;
   background-size: cover;
   overflow: hidden;
@@ -66,26 +66,23 @@ h2 {
 }
 
 .about-pic {
-  background-image: url("https://tribute-page-freecodecamp.vercel.app/images/about-pic.jpeg");
-  background-position: center center;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Ada_Lovelace_child_portrait_Somerville_College.jpg/330px-Ada_Lovelace_child_portrait_Somerville_College.jpg");
+  background-position: right;
   background-size: cover;
-  width: 40%;
-  max-width: 40rem;
-  min-width: 20rem;
-  height: 50%;
-  max-height: 55rem;
-  min-height: 30rem;
+  min-width: 27rem;
   border-radius: 50%;
 }
+
 .about-content h3 {
   font-size: 3rem;
-  font-family: var(--title-fonts);
   line-height: 5rem;
 }
+
 .about-content p {
   font-size: 2rem;
   text-align: left;
 }
+
 /** Timeline Section **/
 .tribute-info {
   width: 90%;
@@ -95,9 +92,9 @@ h2 {
   margin-bottom: 8rem;
   color: var(--white);
 }
+
 .tribute-info h3 {
   font-size: 3rem;
-  font-family: var(--title-fonts);
   text-align: center;
   padding: 4rem;
 }
@@ -110,7 +107,7 @@ h2 {
   justify-content: center;
   text-align: center;
   font-size: 1.5rem;
-  font-family: var(--red-hat-font);
+
 }
 
 .timeline-in-detail {
@@ -127,9 +124,11 @@ h2 {
 .timeline-event {
   width: 100%;
 }
+
 .timeline-month {
   font-size: 1.5rem;
 }
+
 .timeline-year {
   font-size: 2rem;
 }
@@ -142,7 +141,6 @@ h2 {
 .blockquote {
   width: 60%;
   margin: 0 auto;
-  font-family: var(--red-hat-font);
   color: var(--white);
   font-size: 1.5rem;
   text-align: center;
